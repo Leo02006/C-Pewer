@@ -1,18 +1,10 @@
 #include <stdio.h>
 int main()
 {
-	int i,j;
-	i=1;
-	while(i<=3)
-	{
-		j=1;
-		while(j<=3)
-		{
-		printf("%d %d\t",i,j);
-		j++;
-		}
-	printf("\n");
-	i++;
-	}
-	return 0;	
+    int a,b,s;
+    printf("Enter 2 nos ");
+    scanf("%d %d",&a,&b);
+    s=a+b;
+    printf("Sum of %d and %d is %d",a,b,s);
+    return 0;
 }
